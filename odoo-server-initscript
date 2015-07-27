@@ -23,11 +23,13 @@ USER=azureuser
 # Specify an alternate config file (Default: /etc/odoo-server.conf).
 CONFIGFILE="/home/azureuser/.openerp_serverrc"
 
+LOGFILE="/var/log/odoo/odoo-server.log"
+
 # pidfile
 PIDFILE=/var/run/$NAME.pid
 
 # Additional options that are passed to the Daemon.
-DAEMON_OPTS="--load=web,web_kanban,dbfilter_from_head -c $CONFIGFILE"
+DAEMON_OPTS="--load=web,web_kanban,dbfilter_from_header -c $CONFIGFILE --logfile $LOGFILE"
 
 [ -x $DAEMON ] || exit 0
 [ -f $CONFIGFILE ] || exit 0
