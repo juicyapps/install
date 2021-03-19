@@ -2,7 +2,7 @@ Babel==1.3
 Chameleon==2.6.1
 Cheetah==2.4.4
 Geraldo==0.4.17
-Jinja2==2.7.2
+Jinja2==2.11.3
 Landscape-Client==14.12
 Mako==0.9.1
 MarkupSafe==0.18
