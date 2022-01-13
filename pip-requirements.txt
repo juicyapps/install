@@ -7,7 +7,7 @@ Landscape-Client==14.12
 Mako==0.9.1
 MarkupSafe==0.18
 PAM==0.4.2
-Pillow==2.3.0
+Pillow==9.0.0
 PyChart==1.39
 PySPED==0.1.2
 PyWebDAV==0.9.8
